@@ -1,0 +1,40 @@
+.checkout-page {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.checkout-section {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.place-order-button-container {
+  text-align: center;
+}
+.checkout-section h4{
+  color:darkred;
+}
+.place-order-button-container.place-order-button {
+  background-color: darkred;
+  color: white;
+}

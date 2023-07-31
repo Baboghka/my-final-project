@@ -1,0 +1,109 @@
+body{
+
+  background-color:aliceblue!
+  important
+}
+.table-container {
+  width: 90%;
+  margin: 20px auto; 
+  background-color: #f2f2f2; 
+  padding: 20px; 
+}
+
+  
+
+.input-container {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr{
+
+  border-bottom: 1px solid #add;
+}
+th,
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+td.brandName,
+td.typeOfFloss,
+td.flavor {
+  width: 20%;
+}
+
+td.delete,
+td.edit,
+td.addToCard,
+td.checkout {
+  width: 10%;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.vertical-line {
+  border-right: 1px solid #ddd;
+}
+
+button {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+}
+
+.edit-button {
+  background-color: lightblue;
+  color: black;
+}
+
+.add-to-card-button {
+  background-color: greenyellow;
+  color: white;
+}
+
+.checkout-button {
+  background-color: blue;
+  color: white;
+}
+
+.add-item-button {
+  background-color: beige;
+  color: black;
+}
+
+.clear-button {
+  background-color: grey;
+  color: white;
+}
+
+.selected-row {
+  background-color: lightgrey;
+  color: white;
+}
+
+.lightyellow {
+  background-color:lightyellow;
+  color: white;
+}
+
+.skyblue {
+  background-color: skyblue;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
